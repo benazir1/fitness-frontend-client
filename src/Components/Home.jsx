@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div>
       
-        <img src='./public/images/gym.jpg' width={1400} height={500} alt='exercise' />
+        <img src="https://c1.wallpaperflare.com/preview/828/253/109/barbell-exercise-fitness-man-indoor-poster.jpg" width={1400} height={500} alt='exercise' />
         <div>
         <h1 className='h2'>The Fitness</h1>
 
