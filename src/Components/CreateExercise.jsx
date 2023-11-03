@@ -36,7 +36,7 @@ const CreateExercise = () => {
   },
   validate,
   onSubmit:values =>{
-    axios.post("http://localhost:5000/api/exercise/add",formik.values);
+    axios.post("https://fitnessbackend-0wev.onrender.com/api/exercise/add",formik.values);
     history("/dashboard");
      }
   });

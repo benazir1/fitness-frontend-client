@@ -26,7 +26,7 @@ const UpdateExercise = () => {
   useEffect(()=>{
     
       const fetchHandler = async() =>{
-        await axios.get(`http://localhost:5000/api/exercise/${id}`)
+        await axios.get(`https://fitnessbackend-0wev.onrender.com/api/exercise/${id}`)
         .then((res)=>res.data).then(data=>setInputs(data));
          };
   fetchHandler();
@@ -44,7 +44,7 @@ const UpdateExercise = () => {
     
   
     const sendRequest = async() =>{
-  await axios.put(`http://localhost:5000/api/exercise/update/${id}`,{
+  await axios.put(`https://fitnessbackend-0wev.onrender.com/api/exercise/update/${id}`,{
       username :String(inputs.username),
       description:String(inputs.description),
       duration:Number(inputs.duration),

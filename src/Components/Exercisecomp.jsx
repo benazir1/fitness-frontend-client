@@ -10,7 +10,7 @@ const Exercisecomp = ({exercise}) => {
   const{_id,username,description,duration,date}=exercise;
 
   const handleDelete = async() =>{
-    await axios.delete(`http://localhost:5000/api/exercise/${_id}`)
+    await axios.delete(`https://fitnessbackend-0wev.onrender.com/api/exercise/${_id}`)
   .then((res)=>res.data)
   .then(res=>{
     location.reload();

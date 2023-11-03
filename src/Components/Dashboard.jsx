@@ -19,7 +19,7 @@ const Dashboard = () => {
 
   const fetchData = async () => {
     try {
-      const response = await axios.get("http://localhost:5000/api/exercise/all");
+      const response = await axios.get("https://fitnessbackend-0wev.onrender.com/api/exercise/all");
       setExercises(response.data);
     } catch (error) {
       console.error('Error fetching data:', error);

@@ -11,7 +11,7 @@ const Resetpassword = () => {
      const handleSubmit = (e)=>{
         e.preventDefault()
         console.log( password)
-        axios.post(`http://localhost:5000/api/auth/resetpassword/${id}/${token}`,
+        axios.post(`https://fitnessbackend-0wev.onrender.com/api/auth/resetpassword/${id}/${token}`,
             {
                 
                 password: password,

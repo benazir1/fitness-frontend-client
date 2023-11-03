@@ -21,7 +21,7 @@ const Signup = () => {
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		try {
-			const url = "http://localhost:5000/api/user";
+			const url = "https://fitnessbackend-0wev.onrender.com/api/user";
 			const { data: res } = await axios.post(url, data);
 			navigate("/login");
 			console.log(res.message);

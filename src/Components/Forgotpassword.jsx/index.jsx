@@ -6,11 +6,12 @@ import styles from "./styles.module.css";
 const Forgotpassword = () => {
     const navigate = useNavigate()
   const [email, setEmail] = useState('')
+
   const [error, setError] = useState("");
   const handleSubmit = (e) => {
     e.preventDefault()
       console.log(email)
-      axios.post("http://localhost:5000/api/auth/forgotpassword",
+      axios.post("https://fitnessbackend-0wev.onrender.com/api/auth/forgotpassword",
           {
               email: email,
           })
