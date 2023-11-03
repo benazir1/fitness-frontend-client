@@ -1,0 +1,50 @@
+body {
+  font-family: 'Josefin Sans';
+  
+    background-image:url("./public/images/background.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    font-size: medium;
+  
+  }
+.head{
+  color: aliceblue;
+}
+.Link{
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  color: aliceblue;
+}
+.heading{
+  font-size: xx-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  color: cadetblue;
+  text-align: center;
+  justify-content: center;
+  margin-top: 90px;
+}
+.font{
+  font-size:larger;
+  font-family: 'Times New Roman', Times, serif;
+  padding-left: 40px;
+
+}
+.h1{
+  padding-left: 10px;
+}
+.form{
+  color: cadetblue;
+}
+.h2{
+  padding:10px;
+}
+.h3{
+  
+    padding:10px;
+  }
+  span{
+    color: red;
+    font-size: 14px;
+}

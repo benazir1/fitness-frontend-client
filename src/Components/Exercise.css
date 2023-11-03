@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+}
+li{
+    list-style-type: none;
+    padding: 10px;
+    width: 250px;
+    max-width: 250px;
+    max-height: 400px;
+}
+.card{
+    
+    margin-top: 80px;
+    padding: 10px;
+    width: 100%;
+    height: 80%;
+    box-shadow: 5px 5px 10px #ccc;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   font-size: larger;
+   margin-bottom: 25px;
+   box-shadow:  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card >h3{
+    margin: 0;
+    padding: 5px;
+
+}
+.card p{
+    margin: 0;
+    padding: 3px;
+
+}
+.card .p1{
+    margin-left: 15px;
+
+}
+
+
+head{
+    color: aliceblue;
+  }
+  .Link{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: aliceblue;
+  }
+  .heading{
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: cadetblue;
+    text-align: center;
+    justify-content: center;
+    margin-top: 90px;
+  }
+  .font{
+    font-size:larger;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 40px;
+  }
+  .h1{
+    padding-left: 20px;
+  }
+  body {
+    font-family: 'Josefin Sans';
+    
+      background-image:url("./public/images/background.jpg");
+      background-size: auto;
+      background-repeat: no-repeat;
+      font-size: medium;
+    
+    }
